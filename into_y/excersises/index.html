@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+            text-align: center;
+            
+            
+        }
+        .left{
+            width: 300px;
+
+            background-color: lightblue;
+            
+        }
+        .Download{
+            width: 300px;
+            background-color: lightblue;
+            text-align: center;
+            
+        }
+        .inpu{
+            flex: 1;
+            background-color: black;
+            margin-left: 20px;
+           
+            
+        }
+        button{
+            padding: 10px;
+            color: white;
+            padding: 10px;
+            background: transparent;
+            border-color: white;
+            border-width: 2px;
+            
+        }
+        .search{
+            flex: 1;
+            max-width: 50%;
+            border-radius: 20px;
+            justify-content: center;
+            padding: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class=" navbar">
+        <div class="left">home</div>
+       <div  class="inpu"> <input class="search"  type="text" placeholder="search"></div>
+        <div  class="Download"><button> Download</button></div>
+
+    </nav>
+</body>
+</html>
